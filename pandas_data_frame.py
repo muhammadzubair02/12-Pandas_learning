@@ -16,3 +16,5 @@ print(data_frame_file.info())
 
 print("shap: ", data_frame_file.shape) #Print the shape of the data set
 print("type: ", data_frame_file.dtypes) #Print the type of the data set
+
+print("Statistical Explaination: ", data_frame_file.describe) #This function is give more detail of the data set.
