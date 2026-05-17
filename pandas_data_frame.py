@@ -8,3 +8,7 @@ data = {
 # We convert this data into data frame
 data_frame = pd.DataFrame(data)
 print(data_frame)
+
+#now we ask pandas to read the file and upload the data fram
+data_frame_file = pd.read_csv('HousePricePrediction.csv')
+print(data_frame_file.info())
