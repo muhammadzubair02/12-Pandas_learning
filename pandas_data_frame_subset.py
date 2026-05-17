@@ -23,3 +23,6 @@ print("This is the subset", sub_set_iloc)
 
 #iloc: In iloc we use numeric value only as you see sub_set_iloc = df.iloc[0:3, 1:3].
 #loc: In iloc all elements less than our giving range are print for example when we give 0:3. this print the element form 0 to 2.
+
+high_salary = df[df['Salary'] > 2000]
+print('High Salaries: ', high_salary)
