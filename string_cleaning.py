@@ -13,8 +13,13 @@ data_frame['Name'] = data_frame['Name'].str.strip().str.lower() # This line of c
 # We also make a new column
 
 data_frame['Clean_Name'] = data_frame['Name'].str.strip().str.lower()
-print(data_frame)
+#print(data_frame)
 
 #With another function we can replace the letter os the str
 data_frame['Clean_Name'] = data_frame['Clean_Name'].str.replace('_', ' ')
+#print(data_frame)
+
+
+#we use all the menthod in once to clean the string like 
+data_frame['Clean_Name'] = data_frame['Name'].str.strip().str.lower().str.replace('_', ' ')
 print(data_frame)
