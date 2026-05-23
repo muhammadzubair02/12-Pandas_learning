@@ -23,3 +23,4 @@ data_frame['TotalBsmtSF'] = data_frame['TotalBsmtSF'].fillna(data_frame['TotalBs
 
 # Print the final result
 print(data_frame.isna().sum())
+data_frame.info()
